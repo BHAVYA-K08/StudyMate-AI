@@ -1,0 +1,29 @@
+# ENVIRONMENT VARIABLES
+.env
+
+# PYTHON
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# DATABASES AND USER DATA
+data/users.db
+data/uploads/
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+
+# SYSTEM
+.DS_Store
+Thumbs.db
+
+
+# STREAMLIT SECRETS
+.streamlit/secrets.toml
+
+# LOCAL BACKUP
+app_backup.py

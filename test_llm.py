@@ -1,0 +1,9 @@
+from src.llm import get_llm
+
+llm = get_llm()
+
+response = llm.invoke(
+    "Explain python in exactly 3 simple sentences."
+)
+
+print(response.content)
